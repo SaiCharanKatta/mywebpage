@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <title>Forms Demo</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="png1.png">
+		<base href="https://saicharankatta.github.io/mywebpage/" target="_top">	
+		
+    <style>
+    div {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+  }
+			h1
+			{
+				font-size: 13;
+				color: chartreuse;
+			}
+			h2
+			{
+				color: rgb(179, 69, 69); 
+			}
+	</style>
+</html>
+<body alink="red" vlink="0122df" bgcolor="#190000" style="color: aqua; margin-bottom: 10%; margin-right: 5%; margin-top: 5%; margin-left: 5%;">
+    <p align="justify">
+        <h2>HTML Form</h2>
+        An HTML Form is a section of the document that collects input from the user. The input from the
+        user is generally sent to a server (Web servers, Mail clients, etc). We use the
+        HTML &lt;form&gt; element to create forms in HTML.<br>
+        <h2>HTML Form Elements</h2>
+        There are various HTML form elements for various input types. The form elements available in
+        HTML5 are as follows:<br><br>
+        HTML &lt;input&gt; tag<br>
+        HTML &lt;label&gt; tag<br>
+        HTML &lt;button&gt; tag<br>
+        HTML &lt;select&gt;, &lt;option&gt; and &lt;optgroup&gt; tags<br>
+        HTML &lt;textarea&gt; tag<br>
+        HTML &lt;fieldset&gt; tag<br>
+        HTML &lt;legend&gt; tag<br>
+        HTML &lt;datalist&gt; tag<br>
+        HTML &lt;output&gt; tag<br>
+    </p>
+       
+        <p align="justify">Form tag represent HTML form, this consist of form elements.
+            <h2>&lt;form&gt; tag</h2>
+            <h3> Attributes:</h3>
+            Name/id : name of the form/name of the object<br>
+            Method: Request method (HTTP Request Methods)<br>
+            Action: URL (Resource to which form is submitted/data is send)<br>
+            Content-type: Uploading files (MIME Type  Multi Purpose Internet Mail Extension)<br><br>
+            <h2>HTML &lt;input&gt; tag</h2>
+            The HTML &lt;input&gt; tag defines the field where the user can enter data.<br>
+            The &lt;input&gt; element in HTML is used to create form controls for user input. There are several
+            types of &lt;input&gt; elements, each with a specific purpose. Here are some of the most common
+            types of &lt;input&gt; elements:<br>
+            type=&quot;text&quot;: This creates a text input field where the user can enter free-form text.<br>
+            type=&quot;email&quot;: This creates a text input field that is specifically designed for email addresses, and
+            may trigger a validation error if an invalid email format is entered.<br>
+            type=&quot;password&quot;: This creates a text input field where the characters are hidden, such as when
+            entering a password.<br>
+            type=&quot;number&quot;: This creates a text input field that only accepts numerical input.<br>
+            type=&quot;checkbox&quot;: This creates a checkbox control that allows the user to select one or more
+            options.<br>
+            type=&quot;radio&quot;: This creates a radio button control that allows the user to select a single option
+            from a group of options.<br>
+            type=&quot;submit&quot;: This creates a button that, when clicked, submits the form data to the server.<br>
+            type=&quot;reset&quot;: This creates a button that, when clicked, resets the form to its initial values.<br>
+            type=&quot;file&quot;: This creates a control that allows the user to select a file from their device<br>
+        </p>    
+        <!--<php
+        $action = $_GET["action"];
+        $myText = $_POST["mytext"];
+        
+        if($action = "save") {
+          $targetFolder = "/path/to/folder";
+          file_put_contents($targetFolder."mytext.txt", $myText);
+        }
+        ?>  
+            
+    <form action="?action=save" name="myform" method="post">
+        <input type=text name="mytext">
+        <input type="submit" value="save">
+    </form>   -->  
+        
+    <form>
+        <label for="fname">First Name : </label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name : </label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p align="center" style="color: bisque; size: 14;">Form Example : <a href="forms/formexample.html">Click Here</a> </p>
+
+    <div style="width:100%;">
+   
+		<p class="alignleft"><a href="div.html" target="_parent" >Back</a></p>
+		<p class="aligncenter"><a href="index.html" target="_parent"><h4>Main Menu</h4></a></p>
+		<p class="alignright"><a href="forms/formexample.html" target="_parent">Next</a></p>
+	 
+	  </div>
+	  <br>
+		<p align="center">
+			<font color="white"><b>Written by</b>
+			</font><br>
+			<font color="cyan"><b>Sai Charan Katta</b>
+			</font>
+		</p>
+</body>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Forms Demo</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" href="png1.png">
+		<base href="https://saicharankatta.github.io/mywebpage/" target="_top">	
+		
+    <style>
+		div
+		{
+			border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+		}
+			h1
+			{
+				font-size: 13;
+				color: chartreuse;
+			}
+			h2
+			{
+				color: rgb(179, 69, 69); 
+			}
+	</style>
+</head>
+<body alink="red" vlink="0122df" bgcolor="#190000" style="color: aqua; margin-bottom: 10%; margin-right: 5%; margin-top: 5%; margin-left: 5%;">
+	<h2 align="center">HTML Form Example</h2>
+	<form width="50%" style="border: 3;">
+	<div style="width: 50%; border: 0;">
+		<p><label for="fname">First Name : &ensp;</label>
+        <input type="text" id="fname" name="fname"></p>
+        <p><label for="lname">Last Name : &ensp;</label>
+        <input type="text" id="lname" name="lname"></p>
+	</div>
+	<br>
+	<label for="email">Email ID : &ensp;</label>
+	<input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
+	<div style="width: 50%; border: 0;">
+		<ul>
+		<h3>Languages</h3>
+		<input type="radio" name="Languages" value="Java">Java<br>
+		<input type="radio" name="Languages" value="C">C<br>
+		<input type="radio" name="Languages" value="Python">Python
+		</ul>
+		<ul>
+		<h3>Databases</h3>
+		<input type="radio" name="Databases" value="Oracle">Oracle<br>
+		<input type="radio" name="Databases" value="MySQL">MySQL<br>
+		<input type="radio" name="Databases" value="SQLServer">SQLServer
+		</ul>
+	</div>
+	<br>
+		
+        <input type="submit" value="Submit"><br>
+	</form>
+	<br>
+
+	<div style= "width: 100%;  border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;">
+   
+		<p class="alignleft"><a href="forms/forms.html" target="_parent" >Back</a></p>
+		<p class="aligncenter"><a href="index.html" target="_parent"><h4>Main Menu</h4></a></p>
+		<p class="alignright"><a href="index.html" target="_parent">Next</a></p>
+	 
+	  </div>
+	  <br>
+		<p align="center">
+			<font color="white"><b>Written by</b>
+			</font><br>
+			<font color="cyan"><b>Sai Charan Katta</b>
+			</font>
+		</p>
+</body>
+</html>
