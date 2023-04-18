@@ -54,7 +54,7 @@ body
     margin-bottom: 8%;
     
 }
-table.tabdemo,th, td
+table.tabdemo
 { 
         border: 1px solid black;  
         margin-left: auto;  
